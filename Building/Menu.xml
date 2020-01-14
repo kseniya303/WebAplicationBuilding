@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Root>
+    <Text>Main Menu</Text>
+    <Index>0</Index>
+    <Items>
+      <MenuItem>
+        <Text>Работники</Text>
+        <Index>1</Index>
+        <Items>
+          <MenuItem>
+            <Text>Принять</Text>
+            <Index>1</Index>
+            <Items />
+            <Action>Create</Action>
+            <EntityName>User</EntityName>
+          </MenuItem>
+          <MenuItem>
+            <Text>Уволить</Text>
+            <Index>2</Index>
+            <Items />
+            <Action xsi:nil="true" />
+          </MenuItem>
+          <MenuItem>
+            <Text>Информация</Text>
+            <Index>3</Index>
+            <Items />
+            <Action xsi:nil="true" />
+          </MenuItem>
+        </Items>
+        <Action xsi:nil="true" />
+      </MenuItem>
+      <MenuItem>
+        <Text>Отчеты</Text>
+        <Index>2</Index>
+        <Items />
+        <Action xsi:nil="true" />
+      </MenuItem>
+      <MenuItem>
+        <Text>Материал</Text>
+        <Index>3</Index>
+        <Items>
+          <MenuItem>
+            <Text>Добавить</Text>
+            <Index>1</Index>
+            <Items />
+            <Action>Create</Action>
+            <EntityName>Material</EntityName>
+          </MenuItem>
+          <MenuItem>
+            <Text>Просмотреть остаток</Text>
+            <Index>2</Index>
+            <Items />
+            <Action>Read</Action>
+            <EntityName>Material</EntityName>
+          </MenuItem>
+          
+          <MenuItem>
+            <Text>Посмотреть все</Text>
+            <Index>3</Index>
+            <Items />
+            <Action>ReadAll</Action>
+            <EntityName>Material</EntityName>
+          </MenuItem> 
+        </Items>
+        <Action xsi:nil="true" />
+      </MenuItem>
+    </Items>
+    <Action xsi:nil="true" />
+  </Root>
+  <Current>
+    <Text>Main Menu</Text>
+    <Index>0</Index>
+    <Items>
+      <MenuItem>
+        <Text>Работники</Text>
+        <Index>1</Index>
+        <Items>
+          <MenuItem>
+            <Text>Принять</Text>
+            <Index>1</Index>
+            <Items />
+            <Action>Create</Action>
+            <EntityName>User</EntityName>
+          </MenuItem>
+          <MenuItem>
+            <Text>Уволить</Text>
+            <Index>2</Index>
+            <Items />
+            <Action xsi:nil="true" />
+          </MenuItem>
+          <MenuItem>
+            <Text>Информация</Text>
+            <Index>3</Index>
+            <Items />
+            <Action xsi:nil="true" />
+          </MenuItem>
+        </Items>
+        <Action xsi:nil="true" />
+      </MenuItem>
+      <MenuItem>
+        <Text>Отчеты</Text>
+        <Index>2</Index>
+        <Items />
+        <Action xsi:nil="true" />
+      </MenuItem>
+      <MenuItem>
+        <Text>Материал</Text>
+        <Index>3</Index>
+        <Items>
+          <MenuItem>
+            <Text>Добавить</Text>
+            <Index>1</Index>
+            <Items />
+            <Action>Create</Action>
+            <EntityName>Material</EntityName>
+          </MenuItem>
+          <MenuItem>
+            <Text>Просмотреть остаток</Text>
+            <Index>2</Index>
+            <Items />
+            <Action>Read</Action>
+            <EntityName>Material</EntityName>
+          </MenuItem>
+          <MenuItem>
+            <Text>Посмотреть все</Text>
+            <Index>3</Index>
+            <Items />
+            <Action>ReadAll</Action>
+            <EntityName>Material</EntityName>
+          </MenuItem>
+        </Items>
+        <Action xsi:nil="true" />
+      </MenuItem>
+    </Items>
+    <Action xsi:nil="true" />
+  </Current>
+</Menu>
